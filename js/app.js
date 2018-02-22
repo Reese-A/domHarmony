@@ -2,7 +2,8 @@
 
 // 1. In the nav element, target the span element with the id of "count" and change the number from 0 to 8.
 
-
+var myElement = document.getElementById("count");
+myElement.innerHTML = 8;
 
 // 2. Target the div with the id of 'age' and change the contents to: "21 year old vibrant stud".
 
